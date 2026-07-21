@@ -1,6 +1,6 @@
-Flask>=3.0.0
-gunicorn>=21.0.0
-keras>=3.0.0
-tensorflow>=2.15.0
+Flask==3.0.3
+gunicorn==22.0.0
+keras==3.13.2
+tensorflow==2.16.1
 numpy>=1.26.0
 h5py>=3.10.0
