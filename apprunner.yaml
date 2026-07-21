@@ -1,11 +1,7 @@
 version: 1.0
-runtime: python311
+runtime: docker
 build:
-  commands:
-    build:
-      - pip3 install --upgrade pip
-      - pip3 install -r requirements.txt
+  dockerfile: Dockerfile
 run:
-  command: gunicorn app:app
   network:
     port: 5000
